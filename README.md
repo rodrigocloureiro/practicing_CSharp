@@ -13,7 +13,7 @@ Opção de visualizar o detalhe da entidade: Quando o usuário informar a opçã
 
 É obrigatória o uso de classe para representar a sua entidade (baseado no tema escolhido pelo aluno).
 
-É obrigatório que a entidade tenha pelos menos cinco propriedades (cada propriedade com tipos diferentes: string, DateTime, int, bool, double, Guid, etc).
+É obrigatório que a entidade tenha pelos menos cinco propriedades (cada propriedade com tipos diferentes: string, DateTime, int, bool, double, etc).
 
 É obrigatório que a classe (referente a entidade) contenha pelo menos um método, que será o responsável por realizar o cálculo com a propriedade do tipo DateTime da entidade. O calculo é a idade da entidade inserida na lista.
 
