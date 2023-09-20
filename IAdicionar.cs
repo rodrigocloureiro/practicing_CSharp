@@ -1,9 +1,11 @@
-﻿namespace tp3csharp
+﻿using System.Collections.Immutable;
+
+namespace tp3csharp
 {
 	public interface IAdicionar
 	{
-		void AdicionarJogo(Jogo jg);
-		List<Jogo> ListaJogos();
+		void AdicionarGame(Jogo jg);
+        ImmutableList<Jogo> ListaJogos();
 	}
 }
 

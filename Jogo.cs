@@ -25,7 +25,11 @@
 
         public override string ToString()
         {
-            return base.ToString();
+            return $"Título: {_titulo}\n" +
+                $"Faixa etária: {_faixaEtaria} anos\n" +
+                $"Lançamento: {_dataLancamento.ToString("dd/MM/yyyy")}\n" +
+                $"Preço: R$ {_preco}\n" +
+                $"É exclusivo: {(_exclusivo ? "Sim" : "Não")}\n";
         }
     }
 }
