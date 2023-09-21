@@ -1,0 +1,15 @@
+/Users/rodrigo/Desktop/c#/CamadaDeDados/bin/Debug/net6.0/CamadaDeDados.deps.json
+/Users/rodrigo/Desktop/c#/CamadaDeDados/bin/Debug/net6.0/CamadaDeDados.dll
+/Users/rodrigo/Desktop/c#/CamadaDeDados/bin/Debug/net6.0/CamadaDeDados.pdb
+/Users/rodrigo/Desktop/c#/CamadaDeDados/bin/Debug/net6.0/CamadaDeNegocios.dll
+/Users/rodrigo/Desktop/c#/CamadaDeDados/bin/Debug/net6.0/CamadaDeNegocios.pdb
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.csproj.AssemblyReference.cache
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.AssemblyInfoInputs.cache
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.AssemblyInfo.cs
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.csproj.CoreCompileInputs.cache
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.csproj.CopyComplete
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.dll
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/refint/CamadaDeDados.dll
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/CamadaDeDados.pdb
+/Users/rodrigo/Desktop/c#/CamadaDeDados/obj/Debug/net6.0/ref/CamadaDeDados.dll
