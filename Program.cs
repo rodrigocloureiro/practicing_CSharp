@@ -23,7 +23,7 @@ public class Program
                 break;
             }
 
-            switch(opcao)
+            switch (opcao)
             {
                 case 0:
                     Console.WriteLine("Informe somente números inteiros. Tente novamente.");
@@ -56,7 +56,11 @@ public class Program
                     Console.Write("Informe o nome do jogo: ");
                     string tituloFiltro = Console.ReadLine().ToLower();
 
-                    List<Jogo> listaFiltrada = i.ListaJogos().Where(jogo => jogo.Titulo.ToLower().Contains(tituloFiltro)).ToList();
+                    List<Jogo> listaFiltrada = i.ListaJogos()
+                        .Where(jogo => jogo.Titulo.ToLower()
+                            .Contains(tituloFiltro))
+                        .OrderBy(jogo => jogo.Titulo)
+                        .ToList();
 
                     if (listaFiltrada.Count == 0)
                     {
@@ -66,7 +70,7 @@ public class Program
 
                     for (int j = 0; j < listaFiltrada.Count; j++)
                     {
-                        Console.WriteLine($"{j+1}- {listaFiltrada.ElementAt(j).Titulo}");
+                        Console.WriteLine($"{j + 1}- {listaFiltrada.ElementAt(j).Titulo}");
                     }
 
                     Console.Write("Escolha uma das opções: ");
@@ -74,7 +78,7 @@ public class Program
                     int.TryParse(Console.ReadLine(), out escolha);
 
                     if (escolha <= 0 || escolha > listaFiltrada.Count) Console.Write("Opção inválida.");
-                    else Console.WriteLine("\n" + listaFiltrada.ElementAt(escolha-1));
+                    else Console.WriteLine("\n" + listaFiltrada.ElementAt(escolha - 1));
 
                     break;
                 default:
